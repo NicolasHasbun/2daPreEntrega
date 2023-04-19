@@ -4,58 +4,101 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../css/style.css">
-    <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/AnimalCrossingLogo.png">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/50ea8a4963.js" crossorigin="anonymous"></script>
+    <!-- css bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- css propio -->
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
     <title>Contacto</title>
 </head>
 <body>
-    <header class="menu">
-        <div>
-            <nav>
-                <a class="titulo" href="../index.html"><h2 class="logo">Animal<span> Crossing</span></h2></a>
-                 <ul class="nav-list">
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="./Galeria.html">Galeria</a></li>
-                    <li><a href="./Historia.html">Historia</a></li>
-                    <li><a href="./Contacto.html">Contacto</a></li>
-                    <li><a href="./Ubicacion.html">Ubicacion</a></li>
-                </ul>
-            </nav>
+    <!-- navbar -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="#"></a>
+          <img src="../assets/img/Dishonored-Logo-Background-PNG-Image2.png" alt="">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+              <a class="nav-link" href="../pages/personajes.html">Personajes</a>
+              <a class="nav-link" href="../pages/historia.html">Historia</a>
+              <a class="nav-link" href="../pages/galeria.html">Galeria</a>
+              <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+            </div>
+          </div>
         </div>
-    </header>
+      </nav>
 
-    <main>
-        <div class="wrap">
-            <div class="container-form">
-                <div class="info-form">
-                    <h2>Contactanos</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum mollitia nulla veniam! Ratione eveniet pariatur saepe blanditiis iure officiis accusamus vel suscipit debitis provident, nostrum, optio maxime qui voluptate dolores!</p>
-                    <a href="#"><i class="fa fa-phone"></i>123-456-789</a>
-                    <a href="#"><i class="fa fa-envelope"></i>email@tudominio.com</a>
-                    <a href="#"><i class="fa fa-map-marked"></i>Ciudad, Pais</a>
+      <!-- contenido -->
+
+      <div class="contact-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <h2><span>Contacto</span></h2>
                 </div>
-                <!-- Aqui va el contacto perse -->
-                <form action="#" autocomplete="off">
-                    <input type="text" name="nombre" placeholder="Ingresa tu nombre" class="campo">
-                    <input type="email" name="email" placeholder="Ingresa tu correo" class="campo"> 
-                    <textarea name="mensaje" placeholder="Ingresa tu mensaje"></textarea>
-                    <input type="submit" name="enviar" value="enviar mensaje" class="btn-enviar">
-                </form>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                    <div class="contact-form">
+                        <form>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Nombre">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" placeholder="Correo">
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" cols="30" rows="10" placeholder="En que podemos mejorar"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                    <div class="map-area">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d212998.56888882464!2d-70.79498196859117!3d-33.47267844623772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c5410425af2f%3A0x8475d53c400f0931!2sSantiago%2C%20Santiago%20Metropolitan%20Region!5e0!3m2!1sen!2scl!4v1681805519299!5m2!1sen!2scl" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
             </div>
         </div>
-    </main>
-<!-- En este apartado decidi poner los botones de redes sociales -->
-    <footer class="footer">
-        <section class="buttons">
-            <a href="https://www.facebook.com" target="_blank" class="fa fa-facebook"></a>
-            <a href="https://twitter.com" target="_blank" class="fa fa-twitter"></a>
-            <a href="https://www.youtube.com" target="_blank" class="fa fa-youtube"></a>
-            <a href="https://www.linkedin.com" target="_blank" class="fa fa-linkedin"></a>
-        </section>
-    </footer>
+      </div>
 
+
+<!-- footer -->
+      <footer>
+        <section class="footer">
+            <div class="social">
+                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+            </div>
+            <ul class="list">
+                <li>
+                    <a href="../index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="../pages/personajes.html">Personajes</a>
+                </li>
+                <li>
+                    <a href="../pages/historia.html">Historia</a>
+                </li>
+                <li>
+                    <a href="../pages/galeria.html">Galeria</a>
+                </li>
+                <li>
+                    <a href="../pages/contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </section>
+      </footer>
+    
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
