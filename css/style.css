@@ -114,6 +114,10 @@ span {
   font-size: 42px;
   color: #ffcc74;
 }
+.text-box h1 {
+  font-size: 42px;
+  color: #ffcc74;
+}
 .text-box p {
   font-size: 16px;
 }
@@ -267,7 +271,7 @@ section.hero p {
 section.setup {
   padding: 287px 0;
 }
-section.setup .text-header h3 {
+section.setup .text-header h1 {
   font-size: 42px;
   font-weight: 700;
   line-height: 48px;
@@ -283,7 +287,7 @@ section.setup .text-header p {
 section.setup .icons {
   padding: 27px 0;
 }
-section.setup h5 {
+section.setup h2 {
   font-weight: 700;
   font-size: 18px;
   line-height: 24px;
