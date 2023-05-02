@@ -1,3 +1,15 @@
+section.hero {
+	padding: 80px 0;
+	.text {
+		font-weight: 900;
+		font-size: 48px;
+		line-height: 73px;
+		color: $color_1;
+	}
+	p {
+		color: $color_8;
+	}
+}
 section.setup {
 	padding: 287px 0;
 	.text-header {
