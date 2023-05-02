@@ -1,0 +1,19 @@
+:root {
+	--primary: #3155e7;
+	--primary-dark: #2045d6;
+	--black: #010101;
+	--gray-1: #788190;
+	--gray-2: #d3d4db;
+	--white: #ffffff;
+}
+body {
+	font-family: $font-family_1;
+	background-color: $background-color_1;
+	min-height: 100vh;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+}
+span {
+	color: $color_1;
+}

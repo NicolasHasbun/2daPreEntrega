@@ -1,0 +1,18 @@
+.img2 {
+	max-width: 320px;
+	float: left;
+}
+.wrapper {
+	margin: 150px auto;
+	width: 70%;
+}
+.text-box {
+	color: $color_2;
+	h2 {
+		font-size: 42px;
+		color: $color_1;
+	}
+	p {
+		font-size: 16px;
+	}
+}

@@ -1,0 +1,38 @@
+section.setup {
+	padding: 287px 0;
+	.text-header {
+		h3 {
+			font-size: 42px;
+			font-weight: 700;
+			line-height: 48px;
+			color: $color_1;
+		}
+		p {
+			font-size: 18px;
+			font-weight: 400;
+			line-height: 28px;
+			color: $color_8;
+			padding: 27px 0;
+		}
+	}
+	.icons {
+		padding: 27px 0;
+	}
+	h5 {
+		font-weight: 700;
+		font-size: 18px;
+		line-height: 24px;
+		color: $color_1;
+		padding: 18px;
+	}
+	.desc {
+		p {
+			font-weight: 400;
+			font: 13px;
+			line-height: 22px;
+			color: $color_8;
+			max-width: 284px;
+			margin: 0 auto;
+		}
+	}
+}
