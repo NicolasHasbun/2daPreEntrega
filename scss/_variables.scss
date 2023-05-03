@@ -12,3 +12,27 @@ $font-family_1: 'Plus Jakarta Sans', sans-serif;
 $background-color_1: #161922;
 $background-color_2: #fff;
 $background-color_3: #f8f9fa;
+
+
+/* maps */
+/*
+$fonts: (
+    thin: 100,
+    extralight: 200,
+    light: 300,
+    regular: 400,
+    semibold: 600,
+    bold: 700,
+    extrabold: 800
+);
+*/
+
+$map-flex:(
+    flex: flex,
+    row: row,
+    column: column,
+    space-around: space-around,
+    space-between: space-between,
+    space-evenly: space-evenly,
+    space-center: center
+)
