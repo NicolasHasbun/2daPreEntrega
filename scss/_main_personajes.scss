@@ -2,7 +2,7 @@
 	width: 100%;
 	height: auto;
 	background-color: $background-color_1;
-	display: flex;
+	display: map-get($map-flex,flex);
 	justify-content: center;
 	align-items: center;
 	.content2 {
@@ -42,7 +42,7 @@
 	width: 1280px;
 	max-width: 95%;
 	margin: 0 auto;
-	display: flex;
+	display: map-get($map-flex,flex);
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: space-around;
