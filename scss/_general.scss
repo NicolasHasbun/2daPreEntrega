@@ -1,3 +1,9 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 :root {
 	--primary: #3155e7;
 	--primary-dark: #2045d6;
@@ -14,8 +20,4 @@ body {
 	margin: 0;
 	display: map-get($map-flex, flex);
 	flex-direction: column;
-}
-
-span {
-	color: $color_1;
 }
