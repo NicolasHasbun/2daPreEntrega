@@ -230,6 +230,12 @@ body {
   text-transform: capitalize;
 }
 .text2 h2 {
+  color: #ffcc74;
+  font-size: 85px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+.text2 h3 {
   color: white;
   font-size: 25px;
   margin-bottom: 25px;
