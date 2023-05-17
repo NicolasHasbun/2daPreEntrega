@@ -18,6 +18,7 @@
       letter-spacing: 20px;
       background: url(../assets/img/galeria/Landscape1.jpg) center no-repeat;
       -webkit-text-fill-color: transparent;
+      background-clip: border-box;
       -webkit-background-clip: text;
     }
   
