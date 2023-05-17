@@ -6,14 +6,16 @@
 	--gray-2: #d3d4db;
 	--white: #ffffff;
 }
+
 body {
 	font-family: $font-family_1;
 	background-color: $background-color_1;
 	min-height: 100vh;
 	margin: 0;
-	display: map-get($map-flex,flex);
+	display: map-get($map-flex, flex);
 	flex-direction: column;
 }
+
 span {
 	color: $color_1;
 }
